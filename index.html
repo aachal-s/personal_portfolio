@@ -52,7 +52,7 @@
             display: flex;
             justify-content: space-around;
             align-items: center;
-            margin: 58px 0;
+            margin: 50px 0;
         }
         .firstSection > div{
             width: 30%;
@@ -86,11 +86,20 @@
         }
         .secondSection h1{
             font-size: 1.9rem;
-            margin-left: 9.5%;
+            height: 80vh;
         }
         .text-grey{
             color: grey;
         }
+        .secondSection .box{
+            background: #FFFBEB;
+            width: 80vw;
+            height: 2px;
+            /* margin: 56px 0; */
+        }
+        /* .secondSection .vertical{
+
+        } */
     </style>
 
 </head>
@@ -122,16 +131,22 @@
             </div>
         </section>
     <hr>
-        <secttion class="secondSection">
+        <section class="secondSection">
             <span class="text-grey">What I have done so far</span>
-            <h1>Work Experience</h1>
-        </secttion>
+            <h1>Educational Experience</h1>
+            <div class="box">
+                <!-- <div class="vertical"></div>
+                <div class="vertical"></div>
+                <div class="vertical"></div>
+                <div class="vertical"></div> -->
+            </div>
+        </section>
     </main>
 
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
-          strings: ['Web Developer.', 'Web Designer.','Problem Solver.','Learner.'],
+          strings: ['Web Developer.','Learner.', 'Web Designer.','Problem Solver.'],
           typeSpeed: 50,
         });
       </script>
